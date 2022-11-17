@@ -4,10 +4,12 @@ server:
 ##datasource
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: dm
-
-
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password: dm
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/smartec
+    username: smartec
+    password: smart
 

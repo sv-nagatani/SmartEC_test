@@ -3,13 +3,13 @@ package com.example.demo.entity;
 import java.io.Serializable;
 
 public class MyUser implements Serializable{
-    private String userName;    // H2DBにおける、usersテーブルの"username"を格納するフィールド
+    private String userName;    // DBにおける、usersテーブルの"username"を格納するフィールド
 
-    private String password;    // H2DBにおける、usersテーブルの"password"を格納するフィールド
+    private String password;    // DBにおける、usersテーブルの"password"を格納するフィールド
 
-    private String name;        // H2DBにおける、usersテーブルの"name"を格納するフィールド
+    private String name;        // DBにおける、usersテーブルの"name"を格納するフィールド
 
-    private String roleName;    // H2DBにおける、usersテーブルの"roleName"を格納するフィールド
+    private String roleName;    // DBにおける、usersテーブルの"roleName"を格納するフィールド
 
     /**
      * getter, setter
